@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Payment Page</title>
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: indianred;  
+}  
+button {   
+       background-color: #CD5C5C;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: LEMONCHIFFON;  
+    }   
+</style>   
+</head>
+<body>
+    <center>
+        <h1> Payment Details </h1>  
+        <from>
+            <div class="container">
+                <b><label>Card Number</label></b>
+                
+                <input type="number" placeholder="Enter Card Number">
+                <br>
+                <br>
+                <b><label>Card Holder Name</label></b>
+                <input type="text" placeholder="Card Holder Name">
+                <br>
+                <b><label>Date Of Expire</label></b>
+                <br>
+                <input type="date" placeholder="DD-MM-YYYY">
+                <br>
+                <br>
+                <b><label>CVV</label></b>
+                <br>
+                <input type="number" placeholder="Enter CVV">               
+                <br>
+                <br>
+                <b><label>Enter OTP</label></b>
+                <br>
+                <input type="number" >
+                <br>
+                <br>
+                <input type="button"
+                onclick="window.location.href='http://localhost:8080/wt_ex1_online_book_store/OC%20page.html';"
+                value="Pay" />
+                
+            </div>
+        </from>
+    </center>
+</body>
+</html>

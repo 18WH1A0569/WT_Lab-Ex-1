@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shoping cart</title>
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: MEDIUMSPRINGGREEN;  
+}  
+button {   
+       background-color: #00FA9A;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: LAVENDER;  
+    }   
+</style> 
+</head>
+<body>
+    <center><h1> Shopping Cart </h1>
+         <from>
+            <div class="container">
+            <br>
+            <br>
+               <b>Books</b><br>
+                       <select>
+                       <option> </option>
+                       <option>Pride and Prejudice</option>
+                       <option>Nineteen Eight-Four</option>
+                       <option>Harry Potter Volumes</option>
+                       <option>Lord of Rings</option>
+                       <option>Lolita</option>
+                       <option>Beloved</option>
+                       <option>Catch-22</option>
+                       <option>Dracula</option>
+                       <option>House of Leaves</option>
+                       <option>Ghost Story</option>
+                       <option>Carrie</option>
+                       <option>Hell House</option>
+                       <option>The Silence of the Lamb</option>
+                       <option>It</option>
+                       <option>The Hunger</option>
+                   </select>
+                   
+                   <br>
+                   <b><label>Quantity</label></b><br>
+                   
+                       <select>
+                       <option> </option>
+                       <option>1</option>
+                       <option>2</option>
+                       <option>3</option>
+                       <option>4</option>
+                       <option>5</option>
+                       </select>                   
+                   <br>
+                   <br>
+                   <br>
+                   <label> *Cost of the book starts from 500* </label>
+                   <br>
+                   <br>
+                    <input type="button"
+                    onclick="window.location.href='http://localhost:8080/wt_ex1_online_book_store/Pay%20page.html';"
+                    value="Buy Now" />
+            </div>
+       </from>
+    </center>
+    
+</body>
+</html>
